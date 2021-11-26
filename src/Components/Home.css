@@ -1,0 +1,136 @@
+.Home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.text {
+  position: relative;
+  z-index: 1;
+  margin-left: 100px;
+}
+
+.text h1 {
+  font-size: 4rem;
+}
+.text p {
+  font-size: 1.5rem;
+}
+.text button {
+  padding: 10px 20px;
+  box-shadow: 0px 0px 1px 1px rgb(255, 255, 255);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+.extra-text {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    rgb(216, 54, 81),
+    yellow
+  );
+  left: -80px;
+  top: 0px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.float {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-image: linear-gradient(to right, blue, yellow);
+  border-radius: 100%;
+}
+.one {
+  top: 60%;
+  left: 30%;
+  z-index: 1;
+}
+.one div {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  backdrop-filter: blur(10px);
+}
+.two {
+  top: 25%;
+  left: 70%;
+}
+.two div {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  backdrop-filter: blur(10px);
+}
+.three {
+  left: 80%;
+  top: 70%;
+}
+.three div {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  backdrop-filter: blur(10px);
+}
+.four {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(to right, blue, yellow);
+  border-radius: 100%;
+  left: 10%;
+  top: 10%;
+}
+.five {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(to right, blue, yellow);
+  border-radius: 100%;
+  left: 90%;
+  top: 50%;
+}
+.six {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(to right, blue, yellow);
+  border-radius: 100%;
+  top: 85%;
+  left: 50%;
+}
+@media screen and (max-width: 500px) {
+  .text {
+    margin-left: 23px;
+  }
+  .text h1 {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 0.6rem;
+  }
+  .text button {
+    font-size: 0.5rem;
+  }
+  .extra-text {
+    width: 100px;
+    height: 100px;
+    left: -42px;
+  }
+  .three {
+    left: 70%;
+  }
+  .five {
+    left: 75%;
+  }
+}
