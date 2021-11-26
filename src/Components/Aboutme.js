@@ -20,8 +20,8 @@ const Aboutme = ()=>{
                 </div>
                 <div data-aos = "fade-left" className = "contact">
                     <h1>{name}</h1>
-                    <a href =  {`mailto:${mail}`}>naikvenkatesh723@gmail.com</a>
-                    <p>{phoneno}</p>
+                    <a href =  {`mailto:${mail}`} title = "call to venkatesh">naikvenkatesh723@gmail.com</a>
+                    <a href = {`tel:${phoneno}`} title = "mail to venkatesh">+917718025346</a>
                 </div>
                 <div data-aos = "fade-up" className = "skills">
                     <h1>Skills</h1>

@@ -66,9 +66,14 @@
   /*h1,a,p*/
 }
 
-.contact a {
+.contact a:first-of-type {
   text-decoration: none;
   color: white;
+  display: block;
+}
+.contact a:last-of-type {
+  color: white;
+  text-decoration: none;
 }
 
 .skills {
