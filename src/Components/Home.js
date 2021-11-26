@@ -18,12 +18,15 @@ const Home = ()=>{
             .from(button,1.6,{opacity:0,y:40,ease:Power3.easeOut},.6)
             .from(extra,1,{opacity:0,x:-40,ease:Power3.easeOut},.9)
         },[])
+        const handleMail = ()=>{
+            window.location = "mailto:naikvenkatesh723@gmail.com"
+        }
     return (
        <div className= "Home">
            <div ref = {el => text=el} className  = "text rellax" data-rellax-speed = "1">
                 <h1>I'M VENKATESH NAIK</h1>
                 <p>A Self thought Frontend web developer</p>
-                <button>Contact me</button>
+                <button onClick = {handleMail}>Contact me</button>
                 <div className = "extra-text"></div>
            </div>
             <div className = "float one rellax" data-rellax-speed = "7">

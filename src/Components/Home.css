@@ -28,6 +28,17 @@
   color: white;
   margin: 1rem 0;
   font-size: 1.2rem;
+  transition: all 0.3s linear;
+}
+.text button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.514),
+    0px 0px 10px rgba(255, 255, 255, 0.493),
+    0px 0px 15px rgba(255, 255, 255, 0.486);
+}
+.text button:active {
+  background-color: blue;
 }
 .extra-text {
   position: absolute;
@@ -35,8 +46,8 @@
   height: 200px;
   background-image: linear-gradient(
     to bottom right,
-    blue,
-    rgb(216, 54, 81),
+    rgb(73, 73, 255),
+    rgb(255, 85, 113),
     yellow
   );
   left: -80px;
@@ -48,7 +59,12 @@
   position: absolute;
   width: 80px;
   height: 80px;
-  background-image: linear-gradient(to right, blue, yellow);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(73, 73, 255),
+    rgb(255, 85, 113),
+    yellow
+  );
   border-radius: 100%;
 }
 .one {
@@ -86,7 +102,12 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: linear-gradient(to right, blue, yellow);
+  background-image: linear-gradient(
+    to top left,
+    rgb(73, 73, 255),
+    rgb(255, 85, 113),
+    yellow
+  );
   border-radius: 100%;
   left: 10%;
   top: 10%;
@@ -95,7 +116,12 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: linear-gradient(to right, blue, yellow);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(73, 73, 255),
+    rgb(255, 85, 113),
+    yellow
+  );
   border-radius: 100%;
   left: 90%;
   top: 50%;
@@ -104,7 +130,12 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: linear-gradient(to right, blue, yellow);
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(73, 73, 255),
+    rgb(255, 85, 113),
+    yellow
+  );
   border-radius: 100%;
   top: 85%;
   left: 50%;
@@ -120,17 +151,41 @@
     font-size: 0.6rem;
   }
   .text button {
-    font-size: 0.5rem;
+    padding: 8px 15px;
+    font-size: 0.7rem;
   }
   .extra-text {
     width: 100px;
     height: 100px;
     left: -42px;
   }
+  .float {
+    width: 50px;
+    height: 50px;
+  }
+  .one {
+    top: 63%;
+  }
+  .one div,
+  .two div,
+  .three div {
+    width: 50px;
+    height: 50px;
+  }
   .three {
     left: 70%;
   }
+  .four {
+    width: 40px;
+    height: 40px;
+  }
   .five {
     left: 75%;
+    width: 40px;
+    height: 40px;
+  }
+  .six {
+    width: 40px;
+    height: 40px;
   }
 }

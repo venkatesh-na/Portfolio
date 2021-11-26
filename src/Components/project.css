@@ -70,11 +70,12 @@
 }
 .glass .btn-container a:nth-child(1) {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   color: white;
   box-shadow: 0px 0px 1px 1px grey;
-  padding: 2px 20px;
+  padding: 5px 20px;
   background-image: linear-gradient(
     to bottom right,
     rgba(128, 128, 128, 0.555),
@@ -83,11 +84,12 @@
 }
 .glass .btn-container a:nth-child(2) {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   color: white;
   box-shadow: 0px 0px 1px 1px grey;
-  padding: 2px 20px;
+  padding: 5px 20px;
   background-image: linear-gradient(
     to bottom right,
     rgba(128, 128, 128, 0.555),
@@ -101,6 +103,10 @@
     black,
     rgba(128, 128, 128, 0.555)
   );
+}
+.glass .btn-container a:nth-child(1):active,
+.glass .btn-container a:nth-child(2):active {
+  transform: scale(0.8);
 }
 .preview,
 .repo {

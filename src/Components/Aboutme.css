@@ -95,13 +95,13 @@
   color: orangered;
 }
 .skills ul li:nth-child(2) .icon {
-  color: rgb(80, 80, 255);
+  color: rgb(75, 75, 255);
 }
 .skills ul li:nth-child(3) .icon {
   color: yellow;
 }
 .skills ul li:nth-child(4) .icon {
-  color: rgb(75, 75, 255);
+  color: rgb(75, 189, 255);
 }
 .skills ul li:nth-child(5) .icon {
   color: rgb(255, 129, 150);
