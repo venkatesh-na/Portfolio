@@ -2,8 +2,7 @@ import React, { useEffect } from "react"
 import "./Aboutme.css"
 import Aboutdata from "./Aboutdata";
 import AOS from "aos"
-import "../portfolio.pdf"
-
+import resume from "../portfolio.pdf"
 const Aboutme = ()=>{
     useEffect(()=>{
         AOS.init({offset:100,duration:500,easing:"ease-out"})
@@ -44,7 +43,7 @@ const Aboutme = ()=>{
                 </div>
                 <div data-aos = "fade-up" className = "resume">
                     <h1>Resume</h1>
-                    <a href = "portfolio.pdf" download>resume</a>
+                    <a href = {resume} download>download</a>
                 </div>
                 <div data-aos = "fade-left" className = "social">
                         <h1>Social</h1>
