@@ -2,6 +2,8 @@ import React, { useEffect } from "react"
 import "./Aboutme.css"
 import Aboutdata from "./Aboutdata";
 import AOS from "aos"
+import "../portfolio.pdf"
+
 const Aboutme = ()=>{
     useEffect(()=>{
         AOS.init({offset:100,duration:500,easing:"ease-out"})
