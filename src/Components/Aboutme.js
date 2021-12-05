@@ -42,7 +42,7 @@ const Aboutme = ()=>{
                 </div>
                 <div data-aos = "fade-up" className = "resume">
                     <h1>Resume</h1>
-                    <a href = "" download>resume</a>
+                    <a href = "portfolio.pdf" download>resume</a>
                 </div>
                 <div data-aos = "fade-left" className = "social">
                         <h1>Social</h1>
