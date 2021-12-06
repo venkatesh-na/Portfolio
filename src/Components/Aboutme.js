@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import "./Aboutme.css"
 import Aboutdata from "./Aboutdata";
 import AOS from "aos"
-import resume from "../portfolio.pdf"
+import resume from "../portfolioVN.pdf"
 const Aboutme = ()=>{
     useEffect(()=>{
         AOS.init({offset:100,duration:500,easing:"ease-out"})

@@ -33,7 +33,7 @@ const Aboutdata = [
             }
         ],
         resume:"",
-        story:"Story begin on 1st june of 2021 where i decided to drop out of college becuase, even after completing my two year of bscit i cant code well and i know why i cant code well becuase i'm not building anything and im not coding anything from myself so after drop out i started learning html,css, and js well so that i can build something interesting ,which will interact with the user and then i learned reactjs which makes thing easier to build and then i started enjoying it and i build more projects to build up a confidence in react and javascript and im still building and exploring things",
+        story:"Story begin on 1st june of 2021 where i decided to drop out of college. becuase, even after completing my two year of bscit i cant code well and i know why, becuase i'm not building anything and im not coding anything from myself so after drop out i started learning html,css, and js well so that i can build something interesting ,which will interact with the user. and then i learned reactjs which makes things easier to build and then i started enjoying it and i build more projects to build up a confidence in react and javascript and im still building and exploring things",
         social:[
             {
                 icon:<FaCodepen className = "icon"/>,
