@@ -30,6 +30,9 @@ const Aboutdata = [
             {
                 name:"GITHUB",
                 icon:<FaGithub className = "icon"/>
+            },
+            {
+                name:"MERN"
             }
         ],
         resume:"",
