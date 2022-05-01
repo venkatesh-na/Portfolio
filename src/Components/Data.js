@@ -62,6 +62,22 @@ const Data = [
         website:"https://venkatesh-na.github.io/BreakingBadCharacters/",
         githubrepo:"https://github.com/venkatesh-na/BreakingBadCharacters",
         description:"BreakingBad is an website where user can fetch the detail information of breaking bad series characters"
+    },
+    {
+        id:8,
+        name:"Empty Closet",
+        stack:["MERN"],
+        image:"images2/EmptyCloset.png",
+        website:"https://emptycloset.herokuapp.com/",
+        description:"Empty closet is a website where you can sell as well as buy an old clothes without any problems"
+    },
+    {
+        id:9,
+        name:"Interact",
+        stack:["MERN"],
+        image:"images2/Interact.png",
+        website:"https://interactv2.herokuapp.com/",
+        description:"Interact is a image sharing website where user can post their pics online and make friends",
     }
 ]
 export default Data;
